@@ -12,7 +12,7 @@ def file_extract(directory):
 folder_path="/Users/sujangauchan/Desktop/openwebtext"
 output_file="output{}.txt"
 vocab_files="vocab.txt"
-split_files= int(input("How many files you want to split this into?")) # determines the no of files the final txt files are divided into
+split_files= 1
 
 files = file_extract(folder_path)
 
